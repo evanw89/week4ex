@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  height: 150px;
+  width: 20%;
+  /*min-width: 125px;*/
+}
+
+.tomato {
+  background-color: tomato;
+}
+.crimson {
+  background-color: crimson;
+}
+.red {
+  background-color: red;
+}
+.maroon {
+  background-color: maroon;
+}
+
+div.container {
+  height: 200px;
+  width: 200px;
+  background-color: teal;
+}
+
+@media(max-width: 600px) {
+
+  .crimson, .red {
+    display: none;
+  }
+
+}
+
+@media(min-width: 1000px) {
+
+  .box {
+    width: 100%;
+  }
+
+}
